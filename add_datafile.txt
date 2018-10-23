@@ -1,0 +1,4 @@
+ALTER TABLESPACE tbs_temp_04
+ ADD TEMPFILE 'tbs_temp_04.dat'
+   SIZE 10M
+   AUTOEXTEND ON;
